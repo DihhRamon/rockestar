@@ -8,10 +8,10 @@ function toggleMode() {
   // Substituir a imagem
   if (html.classList.contains("light")) {
     // se tiver no modo light, adicionar a imagem light
-    img.setAttribute("src", "./assets/avatar-light.png")
+    img.setAttribute("src", "./assets/avatar-diego-light.jpeg")
   } else {
     // se não estiver no modo light, manter a imagem orignal
-    img.setAttribute("src", "./assets/avatar.png")
+    img.setAttribute("src", "./assets/avatar-diego.jpeg")
   }
 
   // Pegar a tag da descição
@@ -20,9 +20,9 @@ function toggleMode() {
   // Substituir a descrição da imagem
   if (html.classList.contains("light")) {
     // se tiver no modo light, adicionar a descirção da imagem light
-    img.setAttribute("alt", "Foto de Mayk Brito sorrindo, usando óculos escuro e jaqueta, sem barba e fundo roxo e azul.")
+    img.setAttribute("alt", "Foto de Diego, de óculos com camisa cinza e fundo azul.")
   } else {
     // se não estiver no modo light, manter a imagem orignal
-    img.setAttribute("alt", "Foto de Mayk Brito sorrindo, usando óculos e camisa preta, barba e fundo amarelo.")
+    img.setAttribute("alt", "Foto de Diego, de terno gravata rosa e fundo amarelo.")
   }
 }
