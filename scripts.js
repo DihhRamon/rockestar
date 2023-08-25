@@ -8,10 +8,10 @@ function toggleMode() {
   // Substituir a imagem
   if (html.classList.contains("light")) {
     // se tiver no modo light, adicionar a imagem light
-    img.setAttribute("src", "./assets/avatar-diego-light.jpeg")
+    img.setAttribute("src", "./assets/avatar-diego-light.png")
   } else {
     // se não estiver no modo light, manter a imagem orignal
-    img.setAttribute("src", "./assets/avatar-diego.jpeg")
+    img.setAttribute("src", "./assets/avatar-diego.png")
   }
 
   // Pegar a tag da descição
